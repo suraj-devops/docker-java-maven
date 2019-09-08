@@ -12,5 +12,5 @@ node {
    // Mark the code build 'stage'....
    stage 'Build'
    // Run the maven build
-   sh "suod ${mvnHome}/bin/mvn package dockerfile:build"   
+   sh "sudo ${mvnHome}/bin/mvn package dockerfile:build"   
 }
